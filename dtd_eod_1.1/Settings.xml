@@ -1,0 +1,159 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>DAQmx Channel</Name>
+<Val>Dev2/ai0</Val>
+</DAQChannel>
+<DBL>
+<Name>Max Input</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min Input</Name>
+<Val>-10.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sample Rate</Name>
+<Val>100000.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>DAQmx Task</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>9</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\gallantlab\Desktop\message_label_test\finaltest.tdms</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<U32>
+<Name>Samples to Save</Name>
+<Val>100</Val>
+</U32>
+<U32>
+<Name>Trigger - Time</Name>
+<Val>0</Val>
+</U32>
+<DBL>
+<Name>Trigger - Threshold</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Trigger - Channel</Name>
+<Val>0</Val>
+</U32>
+<Boolean>
+<Name>Enable Time Trigger</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Enable Threshold Trigger</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Always Log</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>UserMetaData</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>MSU Fish No.</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Location Code</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Species</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Temperature</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>pH</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Conductivity</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>User Comments</Name>
+<Val></Val>
+</String>
+<U16>
+<Name>Amplifier Model</Name>
+<Val>0</Val>
+</U16>
+<EW>
+<Name>Gain</Name>
+<Choice>10</Choice>
+<Choice>20</Choice>
+<Choice>50</Choice>
+<Choice>100</Choice>
+<Choice>200</Choice>
+<Choice>500</Choice>
+<Choice>1000</Choice>
+<Choice>2k</Choice>
+<Choice>5k</Choice>
+<Choice>10k</Choice>
+<Choice>20k</Choice>
+<Choice>50k</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Low Pass Filter (Hz)</Name>
+<Choice>0.1</Choice>
+<Choice>1</Choice>
+<Choice>3</Choice>
+<Choice>10</Choice>
+<Choice>30</Choice>
+<Choice>100</Choice>
+<Choice>300</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>High Pass Filter (Hz)</Name>
+<Choice>100</Choice>
+<Choice>500</Choice>
+<Choice>1000</Choice>
+<Choice>3000</Choice>
+<Choice>5000</Choice>
+<Choice>10,000</Choice>
+<Choice>20,000</Choice>
+<Choice>30,000</Choice>
+<Choice>50,000</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>AC / DC Coupling</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Notch Filter</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+</LVData>
